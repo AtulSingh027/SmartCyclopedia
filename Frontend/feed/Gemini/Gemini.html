@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Parrot AI</title>
+    <link rel="stylesheet" href="./Gemini.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-content">
+            <div class="logo">
+                🦜 Smart Parrot
+            </div>
+            <div class="nav-links">
+                <a href="/FrontEnd/Home/Home.html">Home</a>
+                <a href="/Frontend/feed/Subjects/Subject.html">Feed</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+            </div>
+        </div>
+    </nav>
+    <main class="hero">
+        <section>
+            <h1>Ask our AI anything</h1>
+        </section>
+        <section id="ExplanationContainer">
+            <div id="briefExplain"></div>
+            <form>
+                <input type="text" id="questionInput" placeholder="Ask your question">
+                <button type="submit" id="askButton">Ask</button>
+            </form>
+            <div id="answerContainer"></div>
+        </section>
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.7.8/axios.min.js" integrity="sha512-v8+bPcpk4Sj7CKB11+gK/FnsbgQ15jTwZamnBf/xDmiQDcgOIYufBo6Acu1y30vrk8gg5su4x0CG3zfPaq5Fcg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./Gemini.js"></script>
+</body>
+</html>

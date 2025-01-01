@@ -15,6 +15,7 @@ def Chapterspage(request, cpk=None):
 
 @api_view(['POST'])    
 def Chaptersget(request):
+    # data = request.data
     serializers = ChapterSerializer(data=request.data)
     if serializers.is_valid():
         serializers.save()
